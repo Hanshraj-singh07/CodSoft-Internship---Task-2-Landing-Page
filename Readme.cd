@@ -1,0 +1,50 @@
+# CodSoft Internship - Task 2: Landing Page
+
+This project is developed as **Task 2** of my **Web Development Internship at CodSoft**.
+
+The goal of this project is to design a **responsive and visually appealing landing page** using HTML and CSS while applying basic web development concepts such as layout design, sections, alignment, and styling.
+
+## 🚀 Features
+
+- Responsive landing page design
+- Clean and modern user interface
+- Navigation bar
+- Hero section
+- Features section
+- About section
+- Pricing section
+- Contact form
+- Footer section
+
+## 🛠 Technologies Used
+
+- HTML5
+- CSS3
+
+## 📂 Project Structure
+
+landing-page  
+│  
+├── index.html  
+├── style.css  
+
+## 🎯 Learning Outcomes
+
+Through this project I learned:
+
+- Structuring webpages using HTML
+- Styling layouts using CSS
+- Creating responsive designs
+- Using colors, spacing, and alignment effectively
+
+## 👨‍💻 Author
+
+Dharmendra Singh
+
+## 📌 Internship
+
+This project was completed as part of the **CodSoft Web Development Internship Program**.
+
+---
+
+⭐ Feel free to explore the project and provide feedback!
