@@ -1,0 +1,200 @@
+ *{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+/* HEADER */
+
+header{
+position:sticky;
+top:0;
+display:flex;
+justify-content:space-between;
+padding:20px 10%;
+background:#020617;
+z-index:1000;
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+color:#22c55e;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:white;
+}
+
+nav a:hover{
+color:#22c55e;
+}
+
+/* HERO */
+
+.hero{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:100px 10%;
+background:linear-gradient(135deg,#020617,#0f172a);
+}
+
+.hero-text h1{
+font-size:50px;
+margin-bottom:20px;
+}
+
+.hero-text p{
+margin-bottom:20px;
+font-size:18px;
+color:#cbd5f5;
+}
+
+.hero-text button{
+padding:12px 30px;
+border:none;
+background:#22c55e;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.hero-img img{
+width:350px;
+}
+
+/* FEATURES */
+
+.features{
+padding:80px 10%;
+text-align:center;
+}
+
+.feature-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:30px;
+margin-top:40px;
+}
+
+.feature-box{
+background:#1e293b;
+padding:30px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.feature-box:hover{
+transform:translateY(-10px);
+}
+
+.feature-box i{
+font-size:30px;
+color:#22c55e;
+margin-bottom:10px;
+}
+
+/* ABOUT */
+
+.about{
+padding:80px 10%;
+text-align:center;
+background:#020617;
+}
+
+.about p{
+margin-top:20px;
+max-width:700px;
+margin-left:auto;
+margin-right:auto;
+color:#cbd5f5;
+}
+
+/* PRICING */
+
+.pricing{
+padding:80px 10%;
+text-align:center;
+}
+
+.pricing-container{
+display:flex;
+justify-content:center;
+gap:30px;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.price-box{
+background:#1e293b;
+padding:40px;
+border-radius:10px;
+width:250px;
+}
+
+.price-box h1{
+margin:15px 0;
+}
+
+.price-box button{
+padding:10px 25px;
+border:none;
+background:#22c55e;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+.popular{
+border:2px solid #22c55e;
+}
+
+/* CONTACT */
+
+.contact{
+padding:80px 10%;
+text-align:center;
+background:#020617;
+}
+
+form{
+max-width:500px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+input, textarea{
+padding:12px;
+border:none;
+border-radius:5px;
+}
+
+button{
+padding:12px;
+background:#22c55e;
+border:none;
+color:white;
+border-radius:5px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+padding:20px;
+text-align:center;
+background:#020617;
+margin-top:40px;
+}
